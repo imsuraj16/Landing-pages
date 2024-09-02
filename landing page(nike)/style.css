@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(164, 183, 183);
+    position: relative;
+}
+.nav{
+    width: 100%;
+    height: 11%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+.nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.nav-part1 img{
+    height: 50px;
+    margin-right: 5vw;
+}
+.nav-part1 h4{
+    margin-right: 4vw;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navpart-2 i{
+    margin-left: 2vw;
+    font-size: 1vw;
+    font-weight: 500;
+}
+.content{
+    width: 100%;
+    height: 89%;
+    /* background-color: aqua; */
+    position: relative;
+    display: flex;
+}
+.left{
+    width: 35%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    padding: 8vw 3vw;
+}
+.left h5{
+    font-size: .8vw;
+    font-weight: 400;
+    color: rgb(99, 105, 105);
+    margin-bottom: .9vw;
+}
+.left h1{
+    font-size: 3vw;
+    font-weight: 510;
+    text-transform: uppercase;
+}
+.left p{
+    font-size: .9vw;
+    line-height: 1.2vw;
+    font-weight: 100;
+    margin-top: 2vw;
+    margin-bottom: 4vw;
+}
+.left button{
+    background-color: black;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    padding: .8vw 2.2vw;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    border: none;
+}
+.right{
+    width: 65%;
+    height: 100%;
+    /* background-color: rgb(101, 50, 150);      */
+    position: relative;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+.right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem{
+   width: 30%;
+   height: 50%;
+   background-color: rgb(255, 255, 255);
+   /* padding-top: 150px; */
+   margin-top: 100px;
+   margin-left: 20px;
+   margin-right: .5px;
+   position: relative;
+   border-radius: 10px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+   display: inline-block;
+}
+.elem img{
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 10px;
+    top: 7%;
+}
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right:  0;
+    background-color: rgb(164, 183, 183);
+    padding: 5px 20px;
+    border-radius: 3px;
+    font-weight: 500;
+}
+.elem h5{
+    position: absolute;
+    bottom: 8.9%;
+    right:  0%;
+    background-color: black;
+    color: white;
+    padding: 5.3px 10px;
+    border-radius: 3px;
+    font-weight: 550;
+}
